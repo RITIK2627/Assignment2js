@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Set character encoding and viewport for responsive design -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Title of the web page -->
+    <title>Assignment 2 | COMP1073 Client-Side JavaScript</title>
+    <!-- Link to an external stylesheet -->
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <!-- Container for displaying student ID -->
+    <div>
+        <p id="myStudentId"></p>
+    </div>
+    <!-- Input field for entering a custom number -->
+    <div>
+        <label for="customNumber">Enter number from 1 to 100:</label>
+        <input id="customNumber" type="number" placeholder="" />
+    </div>
+    <!-- Buttons for changing custom and random colors -->
+    <div>
+        <button class="custColor">Change custom color</button>
+        <button class="randColor">Change random color</button>
+    </div>
+    <!-- Select dropdown for choosing an image -->
+    <div>
+        <label for="imageSelect">Select Image</label>
+        <select id="imageSelect" onchange="changeImage()">
+            <option value="">Please choose…</option>
+        </select>
+    </div>
+    <!-- Image element for displaying selected images -->
+    <div>
+        <img id="images" src="" alt="">
+    </div>
+    <!-- Include an external JavaScript file with 'defer' attribute -->
+    <script src="/js/scripts.js" defer></script>
+</body>
+
+</html>
