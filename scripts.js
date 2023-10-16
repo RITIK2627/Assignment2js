@@ -8,11 +8,11 @@ const myStudentId = document.getElementById("myStudentId");
 
 // Array to store image source locations
 const imageSources = [
-    "img/img1.jpg",
-    "img/img2.jpg",
-    "img/img3.jpg",
-    "img/img4.jpg",
-    "img/img5.jpg"
+    "img1.jpg",
+    "img2.jpg",
+    "img3.jpg",
+    "img4.jpg",
+    "img5.jpg"
 ];
 
 // Function to change background color based on user input
